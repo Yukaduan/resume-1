@@ -4,7 +4,7 @@ let style = document.querySelector('#style');
 let string = `
 /* 您好，我是Yuka
  * 接下来我要用制作太极图的方式
- * 展示一下我的前端功底
+ * 演示一下我的前端功底
  * 首先我要准备一个画板
  */
 
