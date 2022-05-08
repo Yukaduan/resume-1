@@ -5,7 +5,7 @@ let string = `
 /* 您好，我是Yuka
  * 接下来我要用制作太极图的方式
  * 演示一下我的前端功底
- * 首先我要准备一个div
+ * 首先我要准备一个画板
  */
 
 #div1{
@@ -14,12 +14,14 @@ let string = `
     height: 200px;
 }
 
-/* 接下来我要念咒语了
+/* 接下来我要念咒语
+ * 将画板变成圆形
+ * 注意看好了
  */
 #div1{
     border-radius: 50%;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0, 5);
-    border:none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    border: none;
 }
 /* 太极生两仪
  */
@@ -60,7 +62,7 @@ let string = `
 }
 /* 四象生而八卦起
  * 万物之所以成
- * 感谢观看！
+ * The End
  */
 `;
 
