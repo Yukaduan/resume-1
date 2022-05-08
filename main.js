@@ -2,9 +2,10 @@ let html = document.querySelector('#html');
 let style = document.querySelector('#style');
 
 let string = `
-/* 你好，我是Sheryl
- * 接下来我要演示一下我的前端功底
- * 首先要准备一个div
+/* 您好，我是Yuka
+ * 接下来我要用制作太极图的方式
+ * 演示一下我的前端功底
+ * 首先我要准备一个div
  */
 
 #div1{
@@ -13,8 +14,7 @@ let string = `
     height: 200px;
 }
 
-/* 接下来我要把div变成一个八卦图
- * 注意看好了
+/* 接下来我要念咒语了
  */
 #div1{
     border-radius: 50%;
@@ -45,9 +45,6 @@ let string = `
     rgba(0,0,0,1) 18%, 
     rgba(0,0,0,1) 100%);
 }
-
-/* 四象生八卦
- */
 #div1::after{
     width:100px;
     height:100px;
@@ -61,7 +58,10 @@ let string = `
     rgba(255,255,255,1) 18%, 
     rgba(255,255,255,1) 100%);
 }
-
+/* 四象生而八卦起
+ * 万物之所以成
+ * 感谢观看！
+ */
 `;
 
 let string2 = "";
